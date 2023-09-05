@@ -38,7 +38,7 @@ void PrintMatrix(int[,] matrix)
     }
 }
 
-void ReverseNumbersRow(int[,] number)
+void SortNumbersRow(int[,] number)
 {
     for (int i = 0; i < number.GetLength(0); i++)
     {
@@ -59,6 +59,6 @@ int[,] array2d = CreateMatrixRndInt(3, 4, 1, 9);
 PrintMatrix(array2d);
 Console.WriteLine();
 
-ReverseNumbersRow(array2d);
+SortNumbersRow(array2d);
 PrintMatrix(array2d);
 
